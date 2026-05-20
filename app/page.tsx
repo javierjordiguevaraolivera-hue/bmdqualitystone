@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const business = {
-  name: "BMD Quality Stone, LLC",
-  brand: "BMD Quality Stone",
-  address: "1650 SW 20th Street, Miami, FL 33145",
-  phone: "+1 786 543 2716",
-  email: "info@bmdqualitystone.com",
+  name: "RESTAURANT GROUP OF 9801 LLC",
+  brand: "Restaurant Group of 9801",
+  address: "10820 SW 200th Dr, Miami, Florida 33157",
+  phone: "+1 786 548 1321",
+  email: "info@restaurant9801.com",
 };
 
 const navItems = [
@@ -17,51 +17,51 @@ const navItems = [
 
 const services = [
   {
-    title: "Countertops",
-    text: "Medicion, corte e instalacion de superficies para cocinas con acabados limpios y ajuste preciso.",
+    title: "Restaurantes",
+    text: "Operacion enfocada en servicio atento, alimentos consistentes y experiencias memorables para cada visita.",
     image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
   },
   {
-    title: "Banos",
-    text: "Vanities, paredes, bordes y piezas especiales para banos elegantes, duraderos y faciles de mantener.",
+    title: "Hospitalidad",
+    text: "Coordinacion de equipos, ambiente y atencion al detalle para crear momentos comodos y bien cuidados.",
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=85",
   },
   {
-    title: "Quartz y granito",
-    text: "Trabajo con materiales resistentes para proyectos residenciales, comerciales y remodelaciones completas.",
+    title: "Eventos",
+    text: "Apoyo para reuniones, celebraciones y reservas especiales con una experiencia organizada de principio a fin.",
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=85",
   },
   {
-    title: "Barras y detalles",
-    text: "Islas, backsplashes, barras, bordes y terminaciones pensadas para destacar cada espacio.",
+    title: "Comunidad",
+    text: "Presencia local en Miami con enfoque en relaciones duraderas, servicio confiable y crecimiento responsable.",
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1200&q=85",
   },
 ];
 
 const faqs = [
   {
-    question: "Que tipo de proyectos realizan?",
+    question: "Que tipo de grupo es?",
     answer:
-      "Trabajamos superficies de piedra para cocinas, banos, barras, islas, backsplashes y proyectos comerciales.",
+      "Restaurant Group of 9801 LLC es una compania de hospitalidad y restaurantes ubicada en Miami, Florida.",
   },
   {
-    question: "Puedo solicitar una medida o estimado?",
+    question: "Puedo comunicarme para informacion?",
     answer:
-      "Si. Podemos revisar las medidas, el material deseado y el alcance del trabajo para preparar una cotizacion clara.",
+      "Si. Puedes llamar al +1 786 548 1321 o escribir a info@restaurant9801.com para recibir informacion.",
   },
   {
-    question: "Trabajan con quartz y granito?",
+    question: "Donde estan ubicados?",
     answer:
-      "Si. Instalamos superficies en quartz, granito y otros materiales de piedra segun las necesidades del proyecto.",
+      "La direccion de la compania es 10820 SW 200th Dr, Miami, Florida 33157.",
   },
   {
     question: "Como contacto a la compania?",
     answer:
-      "Puedes llamar al +1 786 543 2716 o escribir a info@bmdqualitystone.com para coordinar tu proyecto.",
+      "Puedes usar el telefono, el correo o los botones de contacto del sitio para comunicarte directamente.",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function Home() {
         <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-5 px-4 sm:px-6 lg:px-8">
           <a href="#" className="flex items-center gap-3" aria-label={business.name}>
             <span className="grid size-11 place-items-center bg-[#c92f1b] text-lg font-black text-white">
-              BMD
+              9801
             </span>
             <span className="max-w-48 text-sm font-black uppercase leading-4 tracking-[0.14em] sm:max-w-none">
               {business.brand}
@@ -88,7 +88,7 @@ export default function Home() {
           </nav>
 
           <a
-            href="tel:+17865432716"
+            href="tel:+17865481321"
             className="inline-flex h-11 items-center justify-center bg-[#171b1f] px-5 text-xs font-black uppercase tracking-[0.14em] text-white hover:bg-[#c92f1b]"
           >
             Cotizar
@@ -98,8 +98,8 @@ export default function Home() {
 
       <section className="relative min-h-[calc(100vh-80px)] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2200&q=85"
-          alt="Cocina moderna con superficie de piedra"
+          src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2200&q=85"
+          alt="Mesa de restaurante preparada para servicio"
           fill
           priority
           sizes="100vw"
@@ -110,28 +110,28 @@ export default function Home() {
         <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] max-w-7xl items-center px-4 py-16 sm:px-6 lg:px-8">
           <div className="max-w-3xl text-white">
             <p className="mb-5 text-xs font-black uppercase tracking-[0.28em] text-[#f7b23b]">
-              Fabricacion e instalacion de piedra
+              Hospitalidad y restaurantes en Miami
             </p>
             <h1 className="text-5xl font-black uppercase leading-[0.95] sm:text-6xl lg:text-7xl">
-              Superficies de piedra hechas con precision.
+              Servicio pensado para reunir a la gente.
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/82">
-              BMD Quality Stone transforma cocinas, banos, barras y espacios de
-              trabajo con materiales duraderos, acabados elegantes y una
-              instalacion cuidada de principio a fin.
+              Restaurant Group of 9801 LLC desarrolla experiencias de
+              restaurante con atencion cercana, operacion ordenada y presencia
+              local en Miami.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+17865432716"
+                href="tel:+17865481321"
                 className="inline-flex h-12 items-center justify-center bg-[#c92f1b] px-7 text-sm font-black uppercase tracking-[0.14em] text-white hover:bg-[#f7b23b] hover:text-[#171b1f]"
               >
-                Solicitar cotizacion
+                Llamar ahora
               </a>
               <a
                 href="#servicios"
                 className="inline-flex h-12 items-center justify-center border border-white/70 px-7 text-sm font-black uppercase tracking-[0.14em] text-white hover:border-[#f7b23b] hover:text-[#f7b23b]"
               >
-                Ver servicios
+                Ver enfoque
               </a>
             </div>
           </div>
@@ -143,16 +143,16 @@ export default function Home() {
           <div className="mb-10 grid gap-6 lg:grid-cols-[0.8fr_1fr] lg:items-end">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.26em] text-[#c92f1b]">
-                Servicios
+                Enfoque
               </p>
               <h2 className="mt-3 text-4xl font-black uppercase leading-none sm:text-5xl">
-                Piedra para espacios que se usan todos los dias.
+                Hospitalidad con una operacion clara.
               </h2>
             </div>
             <p className="max-w-2xl text-base leading-7 text-[#535b62] lg:justify-self-end">
-              Creamos e instalamos piezas a medida para hogares, negocios y
-              remodelaciones en Miami, combinando medicion cuidadosa, materiales
-              resistentes y terminaciones pensadas para durar.
+              Coordinamos servicio, ambiente y atencion al cliente para apoyar
+              experiencias de restaurante consistentes, cercanas y faciles de
+              disfrutar.
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function Home() {
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#d7d2c7]">
                   <Image
                     src={service.image}
-                    alt={`Servicio de piedra para ${service.title}`}
+                    alt={`Servicio de restaurante para ${service.title}`}
                     fill
                     sizes="(min-width: 1280px) 25vw, (min-width: 768px) 50vw, 100vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -177,10 +177,10 @@ export default function Home() {
                     {service.text}
                   </p>
                   <a
-                    href="tel:+17865432716"
+                    href="tel:+17865481321"
                     className="mt-5 inline-flex h-10 items-center justify-center bg-[#171b1f] px-4 text-xs font-black uppercase tracking-[0.14em] text-white hover:bg-[#c92f1b]"
                   >
-                    Pedir estimado
+                    Contactar
                   </a>
                 </div>
               </article>
@@ -199,7 +199,7 @@ export default function Home() {
               Respuestas claras antes de empezar.
             </h2>
             <a
-              href="mailto:info@bmdqualitystone.com"
+              href="mailto:info@restaurant9801.com"
               className="mt-8 inline-flex h-12 items-center justify-center bg-[#f7b23b] px-6 text-sm font-black uppercase tracking-[0.14em] text-[#171b1f] hover:bg-white"
             >
               Contactar ahora
@@ -229,8 +229,7 @@ export default function Home() {
               {business.name}
             </p>
             <p className="mt-3 max-w-sm text-sm leading-6 text-white/68">
-              Fabricacion e instalacion de superficies de piedra para cocinas,
-              banos, barras y proyectos comerciales en Miami.
+              Grupo de restaurantes y hospitalidad con base en Miami, Florida.
             </p>
           </div>
 

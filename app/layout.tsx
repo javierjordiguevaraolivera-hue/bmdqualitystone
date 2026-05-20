@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BMD Quality Stone | Miami, FL",
+  title: "Restaurant Group of 9801 LLC | Miami, FL",
   description:
-    "Fabricacion e instalacion de superficies de piedra para cocinas, banos, barras y proyectos residenciales o comerciales en Miami, Florida.",
+    "Restaurant Group of 9801 LLC en Miami, Florida. Operacion, servicio y experiencias de hospitalidad para clientes y comunidades locales.",
 };
 
 export default function RootLayout({
