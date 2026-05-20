@@ -4,7 +4,7 @@ const business = {
   name: "RESTAURANT GROUP OF 9801 LLC",
   brand: "Restaurant Group of 9801",
   address: "10820 SW 200th Dr, Miami, Florida 33157",
-  phone: "+1 786 548 1321",
+  phone: "+1 786 265 9785",
   email: "info@restaurant9801.com",
 };
 
